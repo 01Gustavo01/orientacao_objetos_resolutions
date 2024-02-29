@@ -11,6 +11,8 @@ public class ConversorMoeda implements ConversaoFinanceira{
     }
 }
 
+
+//instancia ConversorMoeda e chama método converterDolarParaReal
 public class TesteConversorMoeda{
     public static void main(String[]args){
         ConversorMoeda conversor = new ConversorMoeda();
