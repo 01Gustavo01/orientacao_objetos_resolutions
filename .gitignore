@@ -1,0 +1,43 @@
+# Ignorar arquivos de compilação do IntelliJ IDEA
+out/
+
+# Permitir diretórios 'out/' dentro de 'src/main/' e 'src/test/'
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Ignorar arquivos de configuração do IntelliJ IDEA
+!**/*.iml
+*.iml
+*.eml
+
+# Ignorar arquivos de bibliotecas de usuário do IntelliJ IDEA
+*.userlibraries
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Arquivo específico a ser ignorado
+principalComBusca.java
